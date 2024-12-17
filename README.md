@@ -130,6 +130,19 @@ See [documentation for GUI](./docs/README_GUI.md) for more details.
     ```
     http://localhost:7860/
     ```
+<h3 id="method-5">Method V: Direct Git Installation</h3>
+
+<p>If you prefer to clone and run the project directly from the source code:</p>
+
+<ol>
+  <li><strong>Clone the repository</strong>:</li>
+  <pre><code>git clone https://github.com/Mxnjot/PDFMathTranslate.git
+cd PDFMathTranslate</code></pre>
+  <li><strong>Install dependencies</strong> (Python environment required):</li>
+  <pre><code>pip install -r requirements.txt</code></pre>
+  <li><strong>Run the application</strong>:</li>
+  <pre><code>python main.py</code></pre>
+</ol>
 
 For docker deployment on cloud service:
 
@@ -333,3 +346,5 @@ curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date"/>
  </picture>
 </a>
+
+
